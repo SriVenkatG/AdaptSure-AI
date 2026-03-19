@@ -1,4 +1,5 @@
-🚀 AdaptSure AI – Adaptive Insurance for Gig Workers
+# 🚀 AdaptSure AI – Adaptive Insurance for Gig Workers
+## Smart AI-based Income Protection for Delivery Workers 🚴‍♂️
 
 ## 📌 Problem
 
