@@ -240,6 +240,54 @@ The final demo will show:
 
 ---
 
+
+## 🚨 Adversarial Defense & Anti-Spoofing Strategy
+
+To handle large-scale fraud scenarios such as fake GPS claims and coordinated attacks, our system incorporates multiple layers of verification.
+
+### 1. Multi-Level Verification
+Instead of relying only on GPS, the system validates:
+- Worker location consistency
+- Delivery activity trends
+- Environmental disruption data
+
+A claim is approved only when all conditions match.
+
+### 2. GPS Spoofing Detection
+The system detects fake GPS using:
+- Sudden location jumps
+- Unrealistic speed patterns
+- Frequent location switching
+
+Such anomalies are flagged for further validation.
+
+### 3. Behavioral Analysis
+The system analyzes user behavior patterns:
+- Repeated claims from the same user
+- Multiple claims from the same location cluster
+- Unusual inactivity before disruption
+
+This helps identify coordinated fraud attempts.
+
+### 4. Device & Identity Checks
+- Detect multiple accounts using the same device
+- Identify suspicious login patterns
+
+### 5. Fairness Protection
+To ensure genuine users are not affected:
+- Claims are rejected only after multiple validation failures
+- Edge cases are flagged instead of directly blocked
+
+### 6. Risk Scoring System
+Each claim is assigned a risk score based on:
+- Location reliability
+- Behavior patterns
+- Historical data
+
+High-risk claims are flagged, while genuine users receive seamless payouts.
+
+This approach ensures strong fraud prevention while maintaining fairness for honest delivery workers.
+
 ## 🏁 Conclusion
 
 This solution provides a practical and scalable way to protect gig workers from unpredictable income loss, using intelligent automation and real-world verification.
